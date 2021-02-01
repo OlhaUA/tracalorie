@@ -1,0 +1,21 @@
+body {
+  background: url('food.jpg') center;
+  height: 100vh;
+}
+.center-align {
+  color: #ffcc80;
+}
+.container a {
+  color: #908b83;
+}
+
+@media screen and (max-width: 384px) {
+  .brand-logo {
+    margin-left: -3rem;
+  }
+}
+@media screen and (max-width: 280px) {
+  .brand-logo {
+    margin-left: -4.5rem;
+  }
+}
